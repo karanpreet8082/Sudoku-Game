@@ -1,3 +1,4 @@
+
 # solver.py
 
 def solve(bo):
