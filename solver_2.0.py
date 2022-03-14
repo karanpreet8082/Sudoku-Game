@@ -15,9 +15,9 @@ def solve(bo):
     else:
         return True
 
-    for i in range(1,10):
-        if valid(bo, (row, col), i):
-            bo[row][col] = i
+    for ik in range(0,10):
+        if valid(bo, (row, col), ik):
+            bo[row][col] = ik
 
             if solve(bo):
                 return True
