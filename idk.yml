@@ -7,3 +7,5 @@ ports:
 tasks:
   - init: pip3 install -r requirements.txt
     command: python3 GUI.py
+    
+  
