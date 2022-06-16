@@ -1,6 +1,5 @@
 # -- ZAILDAR -- #
 # ------pygame-----------
-
 # solver.py
 
 def solve(bo):
