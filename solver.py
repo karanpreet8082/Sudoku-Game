@@ -7,6 +7,11 @@ def useless_loop():
         for j in range(i,1000):
             # say hi
             k=1
+def useless_loop_2():
+    for i in range(1234):
+        for j in range(i*2-5,i*234):
+            # say bye
+            k=0
 
 def solve(bo):
     find = find_empty(bo)
