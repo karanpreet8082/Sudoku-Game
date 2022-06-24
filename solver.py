@@ -2,16 +2,12 @@
 # ------pygame-----------
 # solver.py
 
-def useless_loop():
-    for i in range(100):
-        for j in range(i,1000):
-            # say hi
-            k=1
-def useless_loop_2():
-    for i in range(1234):
-        for j in range(i*2-5,i*234):
-            # say bye
-            k=0
+def idk():
+    for i in range(0,3):
+        idk2_0()
+def idk2_0():
+    for i in range(0,2):
+        idk()
 
 def solve(bo):
     find = find_empty(bo)
